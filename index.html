@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Astrophysicist profile and research website for Ivanna Escala."
+    />
+    <title>Ivanna Escala | Astrophysicist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Extragalactic Archaeology at PUC</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="research.html">Research</a>
+          <a href="group.html">Group</a>
+          <a href="Escala_CV_2026_Website.pdf">CV</a>
+          <a href="https://ui.adsabs.harvard.edu/public-libraries/RLaeE2rTTcaHoJglE3Lmlg">Publications</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="portrait-block">
+            <img
+              class="portrait"
+              src="headshot.jpeg"
+              alt="Portrait of Ivanna Escala"
+            />
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">Astrophysicist</p>
+            <h1>Ivanna Escala</h1>
+            <p class="intro">
+              I study how the hierarchical assembly of galaxies impacts their structure, star formation histories, and
+              chemical evolution using detailed observations of the nearby universe.
+            </p>
+            <p>
+              I am an Assistant Professor at the Institute of Astrophysics, Pontificia Universidad Católica 
+              (PUC) de Chile.
+            </p>
+            <p>
+              My work combines ground- and space-based observations of resolved stellar populations
+              in the nearby universe with statistical modeling to explore how interactions
+              between galaxies shape their evolution across cosmic time, from the smallest dwarf galaxies 
+              to massive disk galaxies like Andromeda (M31).
+             </p>
+            <p>
+              Before coming to PUC, I was a postdoctoral fellow at Space Telescope Science Institute (STScI) 
+              and a Carnegie-Princeton Fellow at Princeton University and the Carnegie Observatories. 
+              I received my PhD in Astrophysics from Caltech and my B.S. in Physics from the University of
+              California, San Diego (UCSD).
+            </p>
+            <p>
+              A little more about me: I am a Costa Rican-Argentinian-American astronomer living in Santiago, 
+              Chile, from San Diego, California. In my free time, I enjoy running, hiking, cooking, 
+              and reading.
+            </p>
+            <p>
+              I am actively seeking students and postdocs to join my group. See
+              <a class="news-link" href="group.html">here</a> for opportunities!
+            </p>
+            <div class="contact-line">
+              <span>Email</span>
+              <a href="mailto:ivanna.escala@uc.cl">ivanna.escala@uc.cl</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news section-shell">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Research group</p>
+            <h2>Latest news</h2>
+          </div>
+
+          <div class="news-grid">
+            <article class="news-item">
+              <p class="news-date">July 2026</p>
+              <h3>New position as an assistant professor at PUC</h3>
+              <p>
+                I am excited to
+                <a href="https://astro.uc.cl/noticias/ivanna-escala-y-nicolas-garavito-se-integran-como-profesores-asistentes-al-instituto-de-astrofisica/">
+                  join the faculty
+                </a>
+                of the Institute of Astrophysics at PUC
+                Chile, where I look forward to building a group focused on galaxy 
+                assembly in the nearby universe.
+              </p>
+            </article>
+
+            <article class="news-item">
+              <p class="news-date">June 2026</p>
+              <h3>Roman Cycle 1 General Astrophysics Survey accepted</h3>
+              <p>
+                I am happy to be part of the team led by Karoline Gilbert (STScI) awarded time
+                on Roman for
+                <a href="https://roman.ipac.caltech.edu/cycle1-approved-programs/2002">
+                  a legacy survey of Andromeda and Triangulum
+                </a>,
+                where I lead the simulations working group.
+              </p>
+            </article>
+
+            <article class="news-item">
+              <p class="news-date">May 2026</p>
+              <h3>Paper published on chemical evolution in the L/SMC</h3>
+              <p>
+                <a href="https://ui.adsabs.harvard.edu/abs/2026ApJ..1003..237E/abstract">My new analysis</a>
+                quantifies how interaction-driven starbursts in the L/SMC impacts
+                their star formation histories and chemical abundaces, with broader implications
+                for mutually interacting dwarf galaxies.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Ivanna Escala</p>
+        <div class="footer-links">
+          <a href="mailto:ivanna.escala@uc.cl">ivanna.escala@uc.cl</a>
+          <a href="https://github.com/ivaescala" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
