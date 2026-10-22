@@ -297,7 +297,19 @@ p {
   padding-bottom: 1.25rem;
 }
 
+.research-page-hero {
+  padding-bottom: 1.25rem;
+}
+
+.teaching-page-hero {
+  padding-bottom: 1.25rem;
+}
+
 .group-page-content {
+  padding-top: 0.5rem;
+}
+
+.teaching-page-content {
   padding-top: 0.5rem;
 }
 
