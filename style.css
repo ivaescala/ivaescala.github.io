@@ -234,6 +234,11 @@ p {
   gap: 1.5rem;
 }
 
+.more-news-link {
+  margin: 1.5rem 0 0;
+  text-align: center;
+}
+
 .news-item,
 .info-card,
 .publication-item {
@@ -305,11 +310,19 @@ p {
   padding-bottom: 1.25rem;
 }
 
+.news-page-hero {
+  padding-bottom: 1.25rem;
+}
+
 .group-page-content {
   padding-top: 0.5rem;
 }
 
 .teaching-page-content {
+  padding-top: 0.5rem;
+}
+
+.news-page-content {
   padding-top: 0.5rem;
 }
 
